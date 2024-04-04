@@ -1,3 +1,4 @@
+import Features from "./ui/features";
 import Header from "./ui/header";
 import Hero from "./ui/hero";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Features />
       </main>
     </div>
   );
