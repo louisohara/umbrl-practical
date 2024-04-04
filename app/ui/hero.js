@@ -1,3 +1,5 @@
+import PriceCard from "./pricecard";
+
 export default function Hero() {
   return (
     <section className="mt-[97px] gap-[53px] mb-[115px]">
@@ -25,6 +27,7 @@ export default function Hero() {
           </li>
         </ul>
       </div>
+      <PriceCard />
     </section>
   );
 }
