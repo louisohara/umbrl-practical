@@ -1,3 +1,9 @@
+import Header from "./ui/header";
+
 export default function Home() {
-  return <main>This is the homepage</main>;
+  return (
+    <div className="w-[90%] 2xl:w-[70%] m-auto">
+      <Header />
+    </div>
+  );
 }
